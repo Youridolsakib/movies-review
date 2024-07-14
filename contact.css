@@ -1,0 +1,84 @@
+body {
+    font-family: "Caveat", cursive;
+    font-family: "Libre Baskerville", serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+  header {
+    background-color:#0d0c0c;
+    color: white;
+    padding: 10px 0;
+  }
+  header nav {
+    text-align: left;
+  }
+  #one {
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 30%;
+    margin-left: none;
+  }
+  .fclass {
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  form {
+    background: url("bg.jpg");
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px black;
+    max-width: 500px;
+    width: 100%;
+    color: #ffffff;
+    background-position: center;
+
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px 6px;
+    margin: 10px 0;
+    border: 1px solid #826767;
+    border-radius: 4px;
+    font-size: 20px;
+}
+button {
+    background: linear-gradient(to right,red,black);
+    color: white;
+    border: none;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+#reset{
+    background: linear-gradient(to right,green,black);
+}
+#reset:hover {
+    background: linear-gradient(to right,red,black);
+    
+}
+#submit:hover{
+    background:linear-gradient(to right,green,black);
+}
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color:#0d0c0c;
+    color: white;
+  }
+  

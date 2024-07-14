@@ -1,0 +1,116 @@
+/* styles.css */
+
+body {
+    font-family: "Caveat", cursive;
+    font-family: "Libre Baskerville", serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+  header {
+    background-color: #0d0c0c;
+    color: white;
+    padding: 10px 0;
+  }
+  h1{
+    margin-left: 50px;
+  }
+  
+  header nav {
+    text-align: right;
+    margin-right: 40px;
+  }
+  nav ul {
+    list-style-type: none; 
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block; 
+    margin-right: 20px;
+  }
+  
+  
+  h2 {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 3rem;
+    
+  }
+  
+  #one {
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 30%;
+    margin-left: none;
+  }
+  
+  .fclass {
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  .f{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+  }
+  .f:hover {
+    color: rgb(180, 37, 37);
+  }
+  
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.category {
+    background:url("bg.jpg");
+    background-position: center;
+    margin: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.category h2 {
+    margin-top:10px;
+    margin-left: 10px;
+    color: #ffffff;
+}
+img{
+    max-width: 300px;
+    border-radius: 5px;
+    margin-bottom: 60px;
+   transition: transform 0.3s ease;
+}
+img:hover{
+  transform: scale(1.1); 
+}
+#link {
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+    list-style: none;
+  }
+  #link:hover{
+    color: greenyellow;
+
+  }
+  
+footer {
+     text-align: center;
+     padding: 10px;
+     background-color: #0d0c0c;
+     color: white;
+     clear: both;
+}
