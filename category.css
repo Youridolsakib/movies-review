@@ -71,7 +71,7 @@ main {
 
 .category {
     background:url("img/bg.jpg");
-    background-position: center;
+    background-position:right;
     margin: 20px;
     width: 300px;
     border-radius: 10px;
@@ -100,7 +100,8 @@ img:hover{
     font-size: 1.3rem;
     margin-bottom: 10px;
     transition: all 0.3s;
-    list-style: none;
+    list-style-type: none;
+    
   }
   #link:hover{
     color: greenyellow;
