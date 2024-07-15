@@ -35,7 +35,7 @@ body {
     color: white;
   }
   form {
-    background: url("bg.jpg");
+    background: url("img/bg.jpg");
     padding: 20px;
     margin: 10px auto;
     border-radius: 8px;
@@ -44,6 +44,7 @@ body {
     width: 100%;
     color: #ffffff;
     background-position: center;
+      border:1px solid red;
 
 }
 
