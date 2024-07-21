@@ -62,7 +62,7 @@ body {
     color: white;
     padding: 20px;
     border-radius: 5px;
-    background: url("bg.jpg");
+    background: url("img/bg.jpg");
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
      border:1px solid red;
   }
@@ -71,7 +71,7 @@ body {
     width: 85%;
     margin: 20px auto;
     color: white;
-    background: url("bg.jpg");
+    background: url("img/bg.jpg");
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       border:1px solid red;
